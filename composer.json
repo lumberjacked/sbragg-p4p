@@ -1,0 +1,16 @@
+{
+    "name": "lumberjacked/sbragg-p4p",
+    "description": "Sample code demonstrating PHP and ZF2",
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.3.*"
+     },
+
+     "autoload": {
+        "psr-0": {
+            "P4p":    "no_mvc/src/", 
+            "P4pmvc": "module/P4pmvc/src/" 
+         }
+    }
+    
+}
