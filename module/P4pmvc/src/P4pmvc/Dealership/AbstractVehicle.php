@@ -1,9 +1,9 @@
 <?php
-namespace P4pmvc\Dealership; 
+namespace P4pmvc\Dealership;
 
-class Vehicle extends AbstractVehicle {
-    
-    protected $id;
+abstract class AbstractVehicle implements VehicleInterface {
+
+	protected $id;
 
     protected $type;
 
@@ -68,6 +68,5 @@ class Vehicle extends AbstractVehicle {
     public function describe() {
         return $this->describe[$this->type];
     }
-
 
 }
