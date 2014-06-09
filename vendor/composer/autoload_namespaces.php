@@ -8,6 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'Zend\\' => array($vendorDir . '/zendframework/zendframework/library'),
     'ZendXml' => array($vendorDir . '/zendframework/zendxml/library'),
-    'P4pmvc' => array($baseDir . '/module/P4pmvc/src'),
+    'Symfony\\Component\\Yaml\\' => array($vendorDir . '/symfony/yaml'),
+    'SpiffyTest\\' => array($vendorDir . '/spiffy/spiffy-test/src'),
+    'P4pmvc\\' => array($baseDir . '/module/P4pmvc/src'),
+    'P4pmvcTest\\' => array($baseDir . '/test/P4pmvcTest'),
     'P4p' => array($baseDir . '/no_mvc/src'),
+    'Mockery' => array($vendorDir . '/mockery/mockery/library'),
 );
