@@ -11,6 +11,8 @@ while (!is_dir($dir . '/vendor')) {
     $prev = $dir;
 }
 
+require $dir . '/vendor/autoload.php';
+
 // This path needs to be setup correctly.
 // If you're using composer, the default is likely correct.
 require $dir . '/vendor/spiffy/spiffy-test/src/SpiffyTest/Module.php';
