@@ -10,7 +10,7 @@ class ModuleTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->module = new \P4pmvc\Module();
+        $this->module = new Module();
     }
 
     public function testGetConfig()
