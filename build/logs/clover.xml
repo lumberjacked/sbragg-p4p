@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1402433960">
+  <project timestamp="1402433960">
+    <package name="P4pmvc">
+      <file name="/home/lumberjacked/workspace/sbragg-p4p/module/P4pmvc/src/Module.php">
+        <class name="Module" namespace="P4pmvc">
+          <metrics methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+        </class>
+        <line num="17" type="method" name="getConfig" crap="2" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <line num="28" type="method" name="getServiceConfig" crap="2" count="0"/>
+        <line num="30" type="stmt" count="0"/>
+        <metrics loc="31" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+      </file>
+    </package>
+    <metrics files="1" loc="31" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="2" coveredstatements="0" elements="4" coveredelements="0"/>
+  </project>
+</coverage>
