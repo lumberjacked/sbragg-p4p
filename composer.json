@@ -16,7 +16,7 @@
             "P4p":    "no_mvc/src/", 
             "P4pmvc": [
                 "module/P4pmvc/src/",
-                "module/P4pmvc/tests"
+                "module/P4pmvc/tests/"
             ]
          }
     }
