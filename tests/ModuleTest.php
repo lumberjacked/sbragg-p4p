@@ -1,8 +1,6 @@
 <?php
 namespace P4pmvc;
 
-use P4pmvc\Module;
-
 class ModuleTest extends \PHPUnit_Framework_TestCase
 {
     /**
@@ -12,7 +10,7 @@ class ModuleTest extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-        $this->module = new Module();
+        $this->module = new \P4pmvc\Module();
     }
 
     public function testGetConfig()

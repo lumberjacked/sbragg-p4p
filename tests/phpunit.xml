@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="../../../vendor/autoload.php" colors="true">
-    <testsuite name="P4pmvc Tests">
-        <directory>.</directory>
-    </testsuite>
+<phpunit bootstrap="../vendor/autoload.php" colors="true">
+    <testsuites>
+        <testsuite name="tests">
+            <directory>.</directory>
+        </testsuite>
+    </testsuites>
     <filter>
         <whitelist>
-            <directory suffix=".php">../src</directory>
+            <directory suffix=".php">../modules/P4pmvc</directory>
         </whitelist>
     </filter>
     <logging>
