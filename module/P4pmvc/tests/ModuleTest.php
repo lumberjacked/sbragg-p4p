@@ -1,6 +1,8 @@
 <?php
 namespace P4pmvc;
 
+use P4pmvc\Module;
+
 class ModuleTest extends \PHPUnit_Framework_TestCase
 {
     /**

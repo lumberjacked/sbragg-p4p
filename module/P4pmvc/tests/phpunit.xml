@@ -1,10 +1,12 @@
-<phpunit bootstrap="./bootstrap.php" colors="true">
-    <testsuite name="ZfcUser Module Tests">
-        <directory>./P4pmvcTest</directory>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="../../../vendor/autoload.php" colors="true">
+    <testsuite name="P4pmvc Tests">
+        <directory>.</directory>
     </testsuite>
     <filter>
         <whitelist>
-            <directory suffix=".php">../src/</directory>
+            <directory suffix=".php">../src</directory>
         </whitelist>
     </filter>
     <logging>
