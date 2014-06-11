@@ -16,7 +16,7 @@ class ModuleTest extends \PHPUnit_Framework_TestCase
     public function testGetConfig()
     {
         $this->assertEquals(
-            include __DIR__ . '/../../config/module.config.php',
+            include __DIR__ . '/../module/P4pmvc/config/module.config.php',
             $this->module->getConfig()
         );
     }
