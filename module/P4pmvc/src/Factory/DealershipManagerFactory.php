@@ -7,9 +7,7 @@ use Zend\ServiceManager\ServiceLocatorInterface;
 class DealershipManagerFactory implements FactoryInterface {
     
     public function createService(ServiceLocatorInterface $serviceLocator) {
-   		
-        $manager = $serviceLocator->get('P4pmvc\Factory\DealershipManager');
-        
-        return $manager;
+   	
+        return new DealershipManager();
     }
 }

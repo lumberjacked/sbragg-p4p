@@ -15,6 +15,7 @@
      "autoload": {
         "psr-4": { 
             "P4pmvc\\": [
+                "module/P4pmvc/",
                 "module/P4pmvc/src/",
                 "module/P4pmvc/tests/"
             ]
